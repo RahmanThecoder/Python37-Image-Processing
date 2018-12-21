@@ -1,7 +1,7 @@
 ...here is the code....
 import cv2
 import numpy as np
-cap = cv2.VideoCapture(0) // (1) for external webcam
+cap = cv2.VideoCapture(0) # (1) for external webcam
 while True:
     _,frame =cap.reap()
     hsv = cv2.cvColor(frame,cv2.COLOR_BGR2HSV)
